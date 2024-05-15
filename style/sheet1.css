@@ -223,6 +223,7 @@ __________________________________________________________________________
   }
 */ 
 
+
 .empty{
   width: 1280px;
   height: 500px;
@@ -251,6 +252,31 @@ __________________________________________________________________________
   --testyhigh: 36px Climate Crisis, sans-serif;
   --testytext: normal 400 22px Poppins, sans-serif;
   --footerfont:normal 400 16px Poppins, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  transition: 0.5s;
+}
+
+.section {
+  scroll-snap-align: start;
+  transition: 0.5s;
+}
+body::-webkit-scrollbar {
+  width: 25px;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--blue1);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--yellow1);
+  border-radius: 20px;
+  border: 5px solid var(--blue1);
+  height: 50px;
 }
 
 *{
