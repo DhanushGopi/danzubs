@@ -232,11 +232,14 @@ __________________________________________________________________________
   --blue1:#0466C9;
   --yellow1:#F5DA03;
   --yellow2:#CDA000;
+  --yellow3:#fce84f;
   --black1:#191919;
   --black2:#272727;
   --white1:#fff;
   --grey1:#F1F1F1;
   --grey2:#eeeeee;
+  --grey3:#bcbcbc;
+  --launchdanzu:236px Climate Crisis, sans-serif;
   --highfont:76px Climate Crisis, sans-serif;
   --subhighfont: normal 700 32px Prompt, sans-serif;
   --fourbtnfont: normal 400 18px Poppins, sans-serif;
@@ -247,6 +250,7 @@ __________________________________________________________________________
   --cardtext: normal 400 24px Poppins, sans-serif;
   --testyhigh: 36px Climate Crisis, sans-serif;
   --testytext: normal 400 22px Poppins, sans-serif;
+  --footerfont:normal 400 16px Poppins, sans-serif;
 }
 
 *{
@@ -336,10 +340,9 @@ body{
 }
 
 .four-btn:hover{
-  background: rgba(245, 218, 3, .7);
+  background: rgba(245, 218, 3, 1);
   backdrop-filter: blur(5px);
   transition: 0.5s;
-  scale: 1.05s;
 }
 
 /*Hero*/
@@ -399,9 +402,8 @@ body{
 }
 
 .primary-btn:hover{
-  background-color: var(--yellow2);
+  background-color: var(--yellow3);
   transition: 0.5s;
-  scale: 1.05s;
 }
 
 .hero-portfolio{
@@ -437,6 +439,7 @@ body{
 .three-btn:hover{
   background: rgba(4, 102, 201, .7);
   backdrop-filter: blur(10px);
+  transition: 0.5s;
 }
 
 
@@ -550,3 +553,174 @@ body{
 .swiper-pagination{
   margin-bottom: 25px;
 }
+
+/*Launch Card*/
+
+.launch{
+  width: 1080px;
+  height: 666px;
+  margin-top:50px;
+  border-radius: 32px;
+}
+
+.launch-content{
+  width:680px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.launch-content img{
+  width: 200px;
+  height: 200px;
+}
+
+.launch-content h3{
+  font: var(--subhighfont);
+  letter-spacing: 5px;
+  color: var(--white1);
+}
+
+.launch-content p{
+  font: var(--highparafont);
+  letter-spacing: 5px;
+  font-weight: 400px;
+  color: var(--white1);
+}
+
+.secondary-btn{
+  font: var(--btnfont);
+  color: var(--black1);
+  background-color: var(--white1);
+  border: 2px solid var(--grey3);
+  border-radius: 100px;
+  text-decoration: none;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  padding: 5px 25px;
+  box-shadow: 0 0px 15px rgba(255, 255, 255,.5);
+}
+
+.secondary-btn:hover{
+  font: var(--btnfont);
+  color: var(--black1);
+  background-color: var(--grey1);
+  border: 2px solid var(--grey3);
+  border-radius: 100px;
+  text-decoration: none;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  padding: 5px 25px;
+  box-shadow: 0 0px 15px rgba(255, 255, 255,.5);
+  transition: 0.5s;
+}
+
+.launch-danzu{
+  font: var(--launchdanzu);
+  color: var(--white1);
+  letter-spacing: -18px;
+}
+.launchoverflow{
+  width: 1080px;
+  height: 666px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--blue1);
+  border-radius: 32px;
+  overflow: hidden;
+}
+
+/*Footer*/
+
+.footer{
+  width:100%;
+  background-color: var(--black1);
+  border-radius: 32px 32px 0px 0px;
+  margin-top: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--white1);
+  font: var(--footerfont);
+}
+
+.footer-up{
+  width: 980px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 75px 25px 25px 25px;
+}
+.upleft{
+  width: 540px;
+  height: 150px;
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.upright{
+  width: 540px;
+  height: 150px;
+  display:flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.socialmedia{
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.socialmedia a{
+  text-decoration: none;
+  color: var(--white1);
+}
+
+.socialmedia a:hover{
+  text-decoration: none;
+  color: var(--yellow1);
+  transition: 0.5s;
+}
+
+.footer-low{
+  width: 980px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid var(--grey2);
+  padding: 25px;
+}
+
+.lowleft{
+  width: 540px;
+  text-align: left;
+}
+
+.lowright{
+  width: 540px;
+  text-align: right;
+  text-decoration: none;
+  color: var(--white1);
+}
+
+.lowright:hover{
+  color: var(--yellow1);
+  transition: 0.5s;
+}
+
+
