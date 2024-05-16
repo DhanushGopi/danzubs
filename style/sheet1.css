@@ -374,7 +374,7 @@ body{
 /*Hero*/
 
 .hero{
-  background-image: URL("./assest/whitegrid.png");
+  background-image: URL("/assest/whitegrid.png");
   width: 1080px;
   height: 980px;
   background-repeat: no-repeat;
