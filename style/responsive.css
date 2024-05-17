@@ -1,0 +1,374 @@
+:root{
+    --launchdanzu:236px Climate Crisis, sans-serif;
+    --rhighfont:28px Climate Crisis, sans-serif;
+    --rsubhighfont: normal 700 10px Prompt, sans-serif;
+    --sectiontitle: normal 700 18px Prompt, sans-serif;
+    --rfourbtnfont: normal 600 10px Prompt, sans-serif;
+    --rbtnfont: normal 600 12px Prompt, sans-serif;
+    --rhighparafont:normal 600 10px Poppins, sans-serif;
+    --rthreebtnfont: normal 400 12px Prompt, sans-serif;
+    --rcardtitle: normal 700 24px Prompt, sans-serif;
+    --rcardtext: normal 400 20px Poppins, sans-serif;
+    --rtestyhigh: 14px Climate Crisis, sans-serif;
+    --rtestytext: normal 400 12px Poppins, sans-serif;
+    --footerfont:normal 400 16px Poppins, sans-serif;
+    --rprice1: normal 500 30px Prompt, sans-serif;
+    --rcardprice: normal 500 16px Poppins, sans-serif;
+    --roffertitle: normal 500 24px Prompt, sans-serif;
+    --blogopen:24px Climate Crisis, sans-serif;
+    --proopen1:50px Climate Crisis, sans-serif;
+    --proopen2:40px Climate Crisis, sans-serif;
+    --protitle1:normal 400 24px Prompt, sans-serif;
+    --protitle2:normal 600 32px Prompt, sans-serif;
+}
+
+/* break point 340-539, 540-739, 740-939, 940-1080 */
+/*340-539*/
+
+@media (min-width: 340px) and (max-width:539px) {
+
+    .nav{
+        width: 280px;
+        height: 50px;
+        padding: 0px 20px;
+        position: sticky;
+        top:2%;
+        z-index:10;
+        margin-top:5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #navlogo{
+        width:100px;
+        height: 20px;
+    }
+
+    .nav--btn{
+        position: absolute;
+        left:-1000px;
+    }
+
+    .four-btn{
+        font: var(--rfourbtnfont);
+        width:150px;
+        height: 20px;
+        padding: 5px;
+        border: 2px solid var(--blue1); 
+    }
+
+
+    /*hero section*/
+    .hero{
+        background-image: url("../assest/whitegrid.png");
+        width: 300px;
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size:contain;
+        margin-top:20px;
+      }
+      
+      .hero-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 300px;
+        height: 140px;
+        color: var(--blue1);
+      }
+      
+      .subhightext{
+        font: var(--rsubhighfont);
+        letter-spacing:7px;
+        text-align: center;
+        color: var(--blue1);
+      }
+      
+      .hightext{
+        font: var(--rhighfont);
+        text-align: center;
+        color: var(--blue1);
+      }
+      
+      .highparatext{
+        width: 300px;
+        font: var(--rhighparafont);
+        text-align: justify;
+      }
+      
+      .primary-btn{
+        font: var(--rbtnfont);
+        color: var(--black1);
+        background-color: var(--yellow1);
+        border: 2px solid var(--yellow2);
+        border-radius: 8px;
+        text-decoration: none;
+        width: 100px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+        box-shadow: 0 5px 15px rgba(245, 218, 3, .5);
+      }
+      
+      .primary-btn:hover{
+        background-color: var(--yellow3);
+        transition: 0.5s;
+      }
+      
+      .hero-portfolio{
+        width: 300px;
+        height: 300px;
+        margin-top: 5px;
+      }
+      
+      .hero-portfolio img{
+        width: 300px;
+        height: 140px;
+        border-radius: 16px;
+        box-shadow:  0px 0px 65px -20px  rgba(25, 25, 25, .3);
+      }
+      
+      .three-btn{
+        font: var(--rthreebtnfont);
+        padding: 5px;
+        color: var(--white1);
+        background: rgba(4, 102, 201, .5);
+        backdrop-filter: blur(5px);
+        border-radius: 100px;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 85px;
+        top:320px;
+        z-index:0;
+      }
+      
+      .three-btn:hover{
+        background: rgba(4, 102, 201, .7);
+        backdrop-filter: blur(10px);
+        transition: 0.5s;
+      }
+
+      /*Testimonial*/
+
+.swiper {
+    width:300px;
+    background-color: var(--yellow1);
+    border-radius: 16px;
+  }
+  
+  .testy{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+  }
+  
+  .testy img{
+    width:40px;
+    height:40px;
+  }
+  
+  .testyhigh{
+    width: 180px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: var(--rtestyhigh);
+    color: var(--blue1);
+  }
+  
+  .testyhightext{
+   text-align: center;
+    padding: 0px 10px;
+  }
+  
+  .testytext{
+    padding-top: 20px;
+    width: 200px;
+    height: 150px;
+    font: var(--rtestytext);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+  }
+  
+  .testyname{
+    padding-top: 40px;
+    width: 200px;
+    font: var(--rtestytext);
+    text-align: center;
+  }
+  
+  .swiper-button-prev{
+    margin-left: 2px;
+    --swiper-navigation-color: var(--blue1);
+  }
+  .swiper-button-next{
+    margin-right: 2px;
+    --swiper-navigation-color: var(--blue1);
+  }
+  
+  .swiper-pagination{
+    margin-bottom: 7px;
+    --swiper-pagination-color: var(--black1);
+  }
+
+
+  /*Service */
+
+  .whatwedo{
+    height: 1800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .subheadtext{
+    font: var(--sectiontitle);
+    letter-spacing:5px;
+    text-align: center;
+    color: var(--blue1);
+    padding: 5px;
+  }
+
+  .service-prices{
+    width: 300px;
+    height: 1800px;
+    background-image:url("../assest/whitegrid.png");
+    background-repeat: repeat;
+    background-size:contain;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+  
+  .service-price{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    padding: 30px 0px;
+    background-color: rgba(250,250,250,.3);
+    backdrop-filter: blur(7px);
+    border:3px solid var(--grey2);
+    border-radius: 32px;
+  }
+  
+  .service-price:hover{
+    border:3px solid var(--black1);
+    transition: 0.5s;
+  }
+  
+  .service-price img{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+  }
+
+  .cardtitle{
+    padding: 5px;
+    text-align: center;
+    font: var(--rcardtitle);
+  }
+
+  
+  .cardprice{
+    padding:10px;
+    text-align: center;
+    font: var(--rcardprice);
+    text-align: center;
+  }
+  
+  .price1{
+    font: var(--rprice1);
+    color: var(--black1);
+    margin-bottom: 10px;
+  }
+
+
+  /*How We Work*/
+
+.howwework{
+    width: 300px;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+  }
+  
+  .howwework img{
+  width: 300px;
+  }
+
+  /*offer bundles*/
+.offer-prices{
+    width: 300px;
+    height: 1800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 25px;
+  }
+  
+  .offer-price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    padding: 30px 0px;
+    background-color: var(--blue1);
+    border:3px solid var(--grey3);
+    border-radius: 32px;
+  }
+  
+  .offer-price:hover{
+    border:3px solid var(--black1);
+    transition: 0.5s;
+  }
+  
+  .offer-price img{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+  }
+  
+  .cardprice{
+    padding: 5px;
+    text-align: center;
+    font: var(--rcardprice);
+  }
+  
+  .offertitle{
+    padding: 30px 10px;
+    text-align: center;
+    font: var(--roffertitle);
+    color: var(--white1);
+  }
+  
+  .price2{
+    font: var(--rprice1);
+    color: var(--white1);
+    margin-bottom: 10px;
+  }
+
+}

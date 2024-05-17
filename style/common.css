@@ -1,7 +1,232 @@
+/*
+#climate-crisis {
+  font-family: "Climate Crisis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+_________________________________________________________________________
+.prompt-thin {
+  font-family: "Prompt", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.prompt-extralight {
+  font-family: "Prompt", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.prompt-light {
+  font-family: "Prompt", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.prompt-regular {
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.prompt-medium {
+  font-family: "Prompt", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.prompt-semibold {
+  font-family: "Prompt", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.prompt-bold {
+  font-family: "Prompt", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.prompt-extrabold {
+  font-family: "Prompt", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.prompt-black {
+  font-family: "Prompt", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.prompt-thin-italic {
+  font-family: "Prompt", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.prompt-extralight-italic {
+  font-family: "Prompt", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.prompt-light-italic {
+  font-family: "Prompt", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.prompt-regular-italic {
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.prompt-medium-italic {
+  font-family: "Prompt", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.prompt-semibold-italic {
+  font-family: "Prompt", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.prompt-bold-italic {
+  font-family: "Prompt", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.prompt-extrabold-italic {
+  font-family: "Prompt", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.prompt-black-italic {
+  font-family: "Prompt", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+__________________________________________________________________________
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+*/ 
+
 
 .empty{
-  width: 1280px;
-  height: 500px;
+  width: 1080px;
+  height: 1px;
 }
 
 :root{
@@ -39,7 +264,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-snap-type: y proximity;
+  scroll-snap-type: y mandatory;
   transition: 0.5s;
 }
 
@@ -144,11 +369,16 @@ body{
   backdrop-filter: blur(5px);
   transition: 0.5s;
 }
+.four-btn:active{
+  background: rgba(245, 218, 3, 1);
+  backdrop-filter: blur(5px);
+  transition: 0.5s;
+}
 
 /*Hero*/
 
 .hero{
-  background-image: URL("../assest/whitegrid.png");
+  background-image: url("../assest/whitegrid.png");
   width: 1080px;
   height: 980px;
   background-repeat: no-repeat;
@@ -534,7 +764,7 @@ body{
 .service-prices{
   width: 1080px;
   height: 880px;
-  background-image:URL("../assest/whitegrid.png");
+  background-image:url("../assest/whitegrid.png");
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center;
@@ -721,21 +951,21 @@ width: 980px;
 
 
 .blog1{
-  background-image: URL("../assest/vvdanzu.png");
+  background-image: url("../assest/vvdanzu.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .blog2{
-  background-image: URL("../assest/juno.png");
+  background-image: url("../assest/juno.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .blog3{
-  background-image: URL("../assest/dansu.png");
+  background-image: url("../assest/dansu.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -785,44 +1015,44 @@ width: 980px;
   transition: 0.5s;
 }
 .pro1{
-  background-image: URL("../assest/chetaachai.png");
+  background-image: url("../assest/chetaachai.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .pro2{
-  background-image: URL("../assest/rocky.png");
+  background-image: url("../assest/rocky.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .pro3{
-  background-image: URL("../assest/lykka.png");
+  background-image: url("../assest/lykka.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .pro4{
-  background-image: URL("../assest/virdhagami.png");
+  background-image: url("../assest/virdhagami.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .pro5{
-  background-image: URL("../assest/wastepaper.png");
+  background-image: url("../assest/wastepaper.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .pro6{
-  background-image: URL("../assest/kgas.png");
+  background-image: url("../assest/kgas.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .pro7{
-  background-image: URL("../assest/biodata.png");
+  background-image: url("../assest/biodata.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
