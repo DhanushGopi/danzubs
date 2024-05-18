@@ -223,7 +223,6 @@ __________________________________________________________________________
   }
 */ 
 
-
 .empty{
   width: 1080px;
   height: 1px;
@@ -296,6 +295,72 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction:column;
+}
+
+/*Ham Nav*/
+
+.hamnav{
+  margin-top: 25px;
+  width: 320px;
+  height: 500px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid var(--white1);
+  border-radius: 16px;
+  background: rgba(241, 241, 241, .4);
+  backdrop-filter: blur(10px);
+  transition: 0.5s;
+  position: sticky;
+  top:2%;
+  z-index:11;
+}
+
+.hide{
+  position: absolute;
+  left: -1000px;
+  transition: 0.5s;
+}
+
+.hamnav--btn{
+  width: 300px;
+  height: 400px;
+  padding: 25xp;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 100px;
+}
+
+.hamnav--btn a{
+  font: var(--fourbtnfont);
+  width: 100px;
+  padding: 5px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--black1);
+  border-radius: 100px;
+}
+
+.hamnav--btn a:hover{
+  font: var(--fourbtnfont);
+  color: var(--black1);
+  background: rgba(241, 241, 241, .2);
+  backdrop-filter: blur(10px);
+  border-radius: 100px;
+  transition: 0.5s;
+  scale: 1.05s;
+}
+
+.hamnav-icon{
+  color: var(--blue1);
+  font: var(--subhighfont) ;
+  font-size: 16px;
+  display: none;
 }
 
 /*Nav Bar*/

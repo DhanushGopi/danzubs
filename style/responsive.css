@@ -1,17 +1,17 @@
 :root{
     --rlaunchdanzu:75px Climate Crisis, sans-serif;
     --rhighfont:30px Climate Crisis, sans-serif;
-    --rsubhighfont: normal 700 12px Prompt, sans-serif;
+    --rsubhighfont: normal 700 14px Prompt, sans-serif;
     --sectiontitle: normal 700 18px Prompt, sans-serif;
     --rfourbtnfont: normal 600 10px Prompt, sans-serif;
     --rbtnfont: normal 600 12px Prompt, sans-serif;
-    --rhighparafont:normal 600 12px Poppins, sans-serif;
+    --rhighparafont:normal 600 14px Poppins, sans-serif;
     --rthreebtnfont: normal 400 12px Prompt, sans-serif;
     --rcardtitle: normal 700 24px Prompt, sans-serif;
     --rcardtext: normal 400 20px Poppins, sans-serif;
     --rtestyhigh: 14px Climate Crisis, sans-serif;
     --rtestytext: normal 400 12px Poppins, sans-serif;
-    --rfooterfont:normal 400 12px Poppins, sans-serif;
+    --rfooterfont:normal 400 10px Poppins, sans-serif;
     --rprice1: normal 500 30px Prompt, sans-serif;
     --rcardprice: normal 500 16px Poppins, sans-serif;
     --roffertitle: normal 500 24px Prompt, sans-serif;
@@ -33,6 +33,21 @@
     height: 15px;
   }
 
+  /*Ham Navbar*/
+
+  .hamnav{
+    display: flex;
+  }
+
+
+  .hamnav-icon{
+    color: var(--blue1);
+    font: var(--subhighfont) ;
+    font-size: 16px;
+    display: block;
+  }
+  
+    /*Navbar*/
     .nav{
         width: 280px;
         height: 50px;
@@ -62,6 +77,8 @@
         height: 20px;
         padding: 5px;
         border: 2px solid var(--blue1); 
+        position: absolute;
+        left: -1000px;
     }
 
 
@@ -236,7 +253,7 @@
   /*Service */
 
   .whatwedo{
-    height: 1800px;
+    height: 2100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -253,7 +270,7 @@
 
   .service-prices{
     width: 320px;
-    height: 1800px;
+    height: 2100px;
     background-image:url("../assest/whitegrid.png");
     background-repeat: repeat;
     background-size:auto;
@@ -272,7 +289,7 @@
     align-items: center;
     flex-direction: column;
     width: 320px;
-    height: 500px;
+    height: 600px;
     padding: 30px 0px;
     background-color: rgba(250,250,250,.3);
     backdrop-filter: blur(7px);
@@ -494,12 +511,12 @@
 }
 
 #footerlogo{
-  width:100px;
-  height: 20px;
+  width:80px;
+  height: 16px;
 }
 
 .upleft{
-  width: 150px;
+  width: 240px;
   height: 75px;
   display:flex;
   justify-content: space-between;
@@ -508,7 +525,7 @@
 }
 
 .upright{
-  width: 150px;
+  width: 60px;
   height: 75px;
   display:flex;
   justify-content: flex-end;
@@ -559,6 +576,29 @@
 .lowright:hover{
   color: var(--yellow1);
   transition: 0.5s;
+}
+
+/*About Page*/
+
+.about-danzu{
+  width: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-danzu img{
+  width:320px;
+  margin: 20px 0px; 
+  border-radius: 16px;
+}
+
+.abouttext{
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: justify;
+  font: var(--cardprice);
 }
 
 

@@ -14,3 +14,20 @@ const swiper = new Swiper('.swiper', {
       prevEl: '.swiper-button-prev',
     }
   });
+
+
+  // for the hamnav
+
+  document.querySelector(".hamnav-icon").addEventListener("click", showConnect);
+
+function showConnect() {
+  document.querySelector(".hamnav").classList.remove("hide");
+}
+
+document
+  .querySelector(".close")
+  .addEventListener("click", closeConnect);
+
+function closeConnect() {
+  document.querySelector(".hamnav").classList.add("hide");
+}
