@@ -264,12 +264,10 @@ __________________________________________________________________________
 
 html {
   scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
   transition: 0.5s;
 }
 
 .section {
-  scroll-snap-align: start;
   transition: 0.5s;
 }
 body::-webkit-scrollbar {
@@ -829,6 +827,10 @@ width: 980px;
 
 
 /*offer bundles*/
+
+.offerbundle{
+  width: 1080px;
+}
 .offer-prices{
   width: 1080px;
   height: 680px;
