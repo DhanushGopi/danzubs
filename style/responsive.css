@@ -1,7 +1,7 @@
 :root{
     --rlaunchdanzu:75px Climate Crisis, sans-serif;
     --rhighfont:30px Climate Crisis, sans-serif;
-    --rsubhighfont: normal 700 14px Prompt, sans-serif;
+    --rsubhighfont: normal 700 18px Prompt, sans-serif;
     --sectiontitle: normal 700 18px Prompt, sans-serif;
     --rfourbtnfont: normal 600 10px Prompt, sans-serif;
     --rbtnfont: normal 600 12px Prompt, sans-serif;
@@ -18,8 +18,8 @@
     --blogopen:24px Climate Crisis, sans-serif;
     --proopen1:50px Climate Crisis, sans-serif;
     --proopen2:40px Climate Crisis, sans-serif;
-    --protitle1:normal 400 24px Prompt, sans-serif;
-    --protitle2:normal 600 32px Prompt, sans-serif;
+    --rprotitle1:normal 400 10px Prompt, sans-serif;
+    --rprotitle2:normal 600 14px Prompt, sans-serif;
     --rsubhighlaunch: normal 700 18px Prompt, sans-serif;
 }
 
@@ -86,7 +86,7 @@
     .hero{
         background-image: url("../assest/whitegrid.png");
         width: 320px;
-        height: 700px;
+        height: 730px;
         background-repeat: no-repeat;
         background-size:cover;
         margin-top:20px;
@@ -99,13 +99,13 @@
         align-items: center;
         flex-direction: column;
         width: 320px;
-        height: 170px;
+        height: 190px;
         color: var(--blue1);
       }
       
       .subhightext{
         font: var(--rsubhighfont);
-        letter-spacing:7px;
+        letter-spacing:0px;
         text-align: center;
         color: var(--blue1);
       }
@@ -596,10 +596,117 @@
 
 .abouttext{
   padding: 10px;
-  margin-bottom: 20px;
+  margin-bottom:10px;
   text-align: justify;
-  font: var(--cardprice);
+  font: var(--rcardprice);
 }
 
+.about-blog{
+  width:320px;
+  height: 2700px;
+  padding: 20px 0px 0px 0px;
+  flex-direction: column;
+}
+
+.blog{
+  border-radius: 16px;
+}
+
+.blog a:hover{
+  border-radius: 16px;
+}
+
+/*Portfolio*/
+
+.portfolio{
+  width: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.portfoliocard{
+  width: 320px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 16px;
+}
+
+.portfoliocard a{
+  width: 320px;
+  height: 120px;
+  font: var(--proopen1);
+  border-radius:16px;
+  background-color: rgba(4, 102, 201, .0);
+  backdrop-filter: blur(0px);
+  color: rgba(250,250,250,.0);
+}
+
+.portfoliocard a:hover{
+  font: var(--proopen2);
+  color: var(--yellow1);
+  background-color: rgba(4, 102, 201, .5);
+  width: 320px;
+  height:120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  transition: 0.5s;
+}
+
+/*Project Page*/
+
+.project{
+  width:320px;
+}
+
+.prodetails{
+  width:320px;
+  flex-direction: column;
+  flex-flow: column-reverse;
+  margin-top: 15px;
+}
+
+.protitle{
+  font: var(--rprotitle1);
+  color: var(--blue1);
+}
+
+.protitle b{
+  font: var(--rprotitle2);
+}
+.five-btn{
+  margin-bottom: 10px;
+  font: var(--rbtnfont);
+  color: var(--black1);
+  background-color: var(--white1);
+  border-radius: 100px;
+  border: 2px solid var(--black1);
+  text-decoration: none;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 25px;
+}
+
+.five-btn:hover{
+  background-color: var(--grey2);
+  transition: 0.5s;
+}
+
+.proimg{
+  width:320px;
+  border-radius: 16px;
+  margin-top: 10px;
+}
 
 }
