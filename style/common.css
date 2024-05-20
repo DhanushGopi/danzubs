@@ -502,6 +502,10 @@ body{
 .hero-portfolio{
   width: 1080px;
   height: 540px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
 }
 
 .hero-portfolio img{
@@ -523,9 +527,8 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  left: 570px;
-  top:900px;
+  margin-bottom: 50px;
+  position:absolute;
   z-index:0;
 }
 
@@ -1165,6 +1168,7 @@ width: 980px;
   border-radius: 100px;
   border: 2px solid var(--black1);
   text-decoration: none;
+  width: auto;
   height: 50px;
   display: flex;
   align-items: center;
@@ -1182,3 +1186,28 @@ width: 980px;
   border-radius: 32px;
   margin-top: 30px;
 }
+
+/*Terms*/
+
+.terms{
+  width:1080px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.termscontent{
+  width:1080px;
+}
+
+.terms-btn{
+  width: 680px;
+  display: flex;
+  justify-content: space-around ;
+  align-items: center;
+}
+
+.terms-btn a{
+  margin: 0px;
+ }
